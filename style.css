@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+#map {
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.inputs {
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+}
