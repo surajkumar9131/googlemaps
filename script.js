@@ -88,7 +88,7 @@ function getLocations() {
   if (r) {
     var newLocations = [];
     for (i = 0; i < locationDetails.length; i++) {
-      if (locationDetails[i][3] >= r) {
+      if (locationDetails[i][3] <= r) {
         newLocations.push(locationDetails[i]);
       }
     }
